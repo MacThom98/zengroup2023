@@ -6,7 +6,7 @@ import UserInfo from './src/components/UserInfo';
 import StatusArea from './src/components/Status';
 import ServicesArea from './src/components/Services';
 import ProductCardArea from './src/components/Product';
-import HomeScreen from './src/screens/HomeScreen';
+
 
 
 
@@ -26,7 +26,7 @@ export default function App() {
       </View>
       <StatusBar style='light'/>
     </ScrollView>
-    
+
 
   );
 }
