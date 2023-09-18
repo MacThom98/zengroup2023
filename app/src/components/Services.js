@@ -17,7 +17,7 @@ const ServicesArea = () => {
           renderItem={({item}) => (
             <View style={styles.item}>
               <View style={styles.buttonContainer}>
-                <Pressable style={styles.button}onPress={onPress}>
+                <Pressable style={styles.button} onPress={onPress}>
                   <Image source={item.icon} style={{objectFit:'contain',width:36}}/>
                 </Pressable>
               </View>
@@ -28,7 +28,6 @@ const ServicesArea = () => {
           columnWrapperStyle={{
             justifyContent:'space-between',
             alignItems:'center',
-            
           }}/>
           </LinearGradient>
       </View>
